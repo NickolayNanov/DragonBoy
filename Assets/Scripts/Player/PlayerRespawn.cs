@@ -1,3 +1,4 @@
+using Assets.Scripts.MainMenu;
 using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
