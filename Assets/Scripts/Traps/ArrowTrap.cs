@@ -33,5 +33,8 @@ public class ArrowTrap : MonoBehaviour
 
         if (cooldownTimer >= attackCooldown)
             Attack();
+
+        arrows[FindArrow()].transform.position = firePoint.position;
+        arrows[FindArrow()].GetComponent<EnemyProjectile>().ActivateProjectile();
     }
 }
